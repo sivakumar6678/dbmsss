@@ -16,8 +16,8 @@ insert into department values(1,'cse','kalikiri','prof');
 insert into department (deptno,location,designation)values(3,'kalikiri','prof');
 
 
-3rd
- create table dept(
+3rd one to write in record
+create table dept(
 deptno int primary key,
 deptname varchar(10),
 location varchar(10),
