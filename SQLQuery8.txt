@@ -1,0 +1,16 @@
+declare @a int,@b int, @c int;
+set @a=3;
+set @b=8;
+set @c=5;
+if (@a>@b and @a>@c) 
+begin
+print('a is maximum');
+end
+else if (@b>@a and @b>@c) 
+begin
+print('b is maximum');
+end
+else
+begin
+print('c is maximum');
+end

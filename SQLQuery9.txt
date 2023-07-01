@@ -1,0 +1,14 @@
+declare  @meessage varchar(20);
+set @meessage='hello world';
+begin
+print (@meessage);
+end
+
+declare @a int,@b int,@c int;
+set @a=10;
+set @b=20;
+begin
+set @c=@a+@b;
+print(@c);
+end
+

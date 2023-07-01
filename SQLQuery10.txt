@@ -1,0 +1,7 @@
+declare @a int,@b int,@c int;
+set @a=10;
+set @b=20;
+begin
+set @c=@a+@b;
+print(@c);
+end;
